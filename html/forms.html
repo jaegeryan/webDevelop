@@ -10,26 +10,27 @@
 
 <body>
     <h1>Forms Demo</h1>
-    <button>Summit</button>
+    file:///C:/tacos?username=chickenman
+    <!--因为在form中有action， 没有标记的button会跳转到 /tacos-->
     <form action="/tacos">
         <p>
             <label for="username">Enter a username:</label>
-            <input id="username" type="text" placeholder="username">
+            <input id="username" type="text" placeholder="username" name="username">
         </p>
         <p>
             <label for="password">Enter a password:</label>
-            <input id="password" type="password" placeholder="password">
+            <input id="password" type="password" placeholder="password" name="password">
         </p>
         <button>Summit the middle</button>
         <p>
             <label for="color">Choice a color:</label>
-            <input id="color" type="color">
+            <input id="color" type="color" name="color">
         </p>
         <p>
             <!--  Alternative way to label an input (Less common)  -->
             <label for="number">
                 Enter a number:
-                <input id="number" type="number" placeholder="enter number">
+                <input id="number" type="number" placeholder="enter number" name="number">
             </label>
         </p>
         <!-- this button doesn't submit the form b/c of the type attribute -->
