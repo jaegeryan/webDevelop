@@ -61,6 +61,34 @@
         <input type="text" name="search_query" placeholder"Enter something to search in YouTube">
         <button>Search YouTube</button>
     </form>
+
+    <h2>More Inputs</h2>
+    <from action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to everything</label>
+        <p>
+            <!-- name是一样的就等于只能选一个 -->
+            <label for="xs">XS:</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S:</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M:</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+
+
+        <p>
+            <label for="">Please Select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="">--Please choose an option--</option>
+                <option value="fish">Fish</option>
+                <option value="beef">Beef</option>
+                <option value="egg">Egg</option>
+                <option value="hamburger">Hamburger</option>
+            </select>
+        </p>
+        <button>Summit</button>
+    </from>
 </body>
 
 </html>
