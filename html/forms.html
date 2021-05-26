@@ -30,7 +30,7 @@
             <!--  Alternative way to label an input (Less common)  -->
             <label for="number">
                 Enter a number:
-                <input id="number" type="number" placeholder="enter number" name="number">
+                <input id="number" type="number" placeholder="enter number" name="number" min="1" max="15" step="2">
             </label>
         </p>
         <!-- this button doesn't submit the form b/c of the type attribute -->
@@ -63,7 +63,7 @@
     </form>
 
     <h2>More Inputs</h2>
-    <from action="/birds">
+    <form action="/birds">
         <input type="checkbox" name="agree_tos" id="agree">
         <label for="agree">I agree to everything</label>
         <p>
@@ -87,8 +87,16 @@
                 <option value="hamburger">Hamburger</option>
             </select>
         </p>
+        <p>
+            <label for="Cheese">Amount of Cheese</label>
+            <input type="range" id="cheese" min="1" max="10" step="5" name="cheese_level" value="75">
+        </p>
+        <p>
+            <label for="request">Any Special REQUESTS?</label>
+            <textarea name="request" id="request" cols="30" rows="5"></textarea>
+        </p>
         <button>Summit</button>
-    </from>
+    </form>
 </body>
 
 </html>
