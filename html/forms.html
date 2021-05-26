@@ -10,13 +10,37 @@
 
 <body>
     <h1>Forms Demo</h1>
+    <button>Summit</button>
     <form action="/tacos">
-        <input type="text" placeholder="username">
-        <input type="password" placeholder="password">
-        <input type="color">
-        <input type="number" placeholder="enter number">
-
+        <p>
+            <label for="username">Enter a username:</label>
+            <input id="username" type="text" placeholder="username">
+        </p>
+        <p>
+            <label for="password">Enter a password:</label>
+            <input id="password" type="password" placeholder="password">
+        </p>
+        <button>Summit the middle</button>
+        <p>
+            <label for="color">Choice a color:</label>
+            <input id="color" type="color">
+        </p>
+        <p>
+            <!--  Alternative way to label an input (Less common)  -->
+            <label for="number">
+                Enter a number:
+                <input id="number" type="number" placeholder="enter number">
+            </label>
+        </p>
+        <!-- this button doesn't submit the form b/c of the type attribute -->
+        <button>Summit</button>
+        <!--  This button submits the form!  -->
+        <button type="button">Please do not submit the form</button>
+        <!--  So does this one  -->
+        <input type="submit" value="Click me!">
     </form>
+    <hr>
+    <button>Not inside Form</button>
 </body>
 
 </html>
