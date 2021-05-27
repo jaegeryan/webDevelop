@@ -3,6 +3,7 @@ h1 {
     font-weight: 400;
     text-decoration: orange line-through;
     letter-spacing: 10px;
+    font-size: 100px;
 }
 
 a {
