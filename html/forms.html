@@ -96,6 +96,27 @@
             <textarea name="request" id="request" cols="30" rows="5"></textarea>
         </p>
         <button>Summit</button>
+
+        <h2>Validation Demo</h2>
+        <form action="/dummy">
+            <label for="first">Enter First Name</label>
+            <!-- Required typed text--you need type something in the text box -->
+            <input type="text" name="first" id="first" required>
+            <p>
+                <label for="username">Username</label>
+                <!--  Required typed text least 5 characters and max 20 characters -->
+                <input type="text" id="username" name="username" minlength="5" maxlength="20">
+            </p>
+            <p>
+                <!-- type -> email, url-->
+                <input type="email" required>
+            </p>
+            <button>Summit</button>
+
+        </form>
+
+
+
     </form>
 </body>
 
