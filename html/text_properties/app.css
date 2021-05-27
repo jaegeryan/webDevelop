@@ -4,6 +4,8 @@ h1 {
     text-decoration: orange line-through;
     letter-spacing: 10px;
     font-size: 100px;
+    /* 假如系统没有首选字体就会直接使用备选字体 */
+    font-family: Papyrus, fantasy, Futura, Helvetica, sans-serif; 
 }
 
 a {
