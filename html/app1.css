@@ -1,10 +1,19 @@
-* {
+/* * {
     color: pink;
 
+} */
+body {
+    background-color: #2a9d8f;
 }
 button  {
     font-size: 30px;
+    background-color: #264653;
 }
 h1,h2 {
     color: darkslateblue;
+}
+
+/* id selector */
+#button2 {
+    background-color: #f4a261;
 }
