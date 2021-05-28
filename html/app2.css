@@ -67,3 +67,15 @@ a[href="www.google.com"]{  /*等于  a[href*="google"] 这个看的是链接中�
 .post:nth-of-type(3n){
     background-color: #dfe8dc;
 }
+h2::first-letter{
+    font-size:50px;
+}
+p::first-line{
+    color:purple;
+}
+p::selection{
+    background-color:#fcbf94;
+}
+h1,h2 {
+    color: yellow;
+}
