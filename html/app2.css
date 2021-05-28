@@ -15,7 +15,7 @@ h1,h2 {
     color: #1d3557;
 }
 
-#signup{
+#signup{ /*This is the id selector for 'signup' */
     background-color: #1d3557;
     color: #f1faee;
 }
@@ -55,10 +55,7 @@ a[href="www.google.com"]{  /*等于  a[href*="google"] 这个看的是链接中�
     color: magenta;
 }
 
-.post button:hover {
-    background-color:#e63946;
-    color: #f1faee;
-}
+
 
 .post button:active{
     background-color: #02c39a;
@@ -78,4 +75,14 @@ p::selection{
 }
 h1,h2 {
     color: yellow;
+}
+
+.post button:hover { /*this is the class selector*/
+    background-color:#e63946;
+    color: #f1faee;
+}
+
+button:hover{
+    background-color: olive;
+    font-size: 10px;
 }
