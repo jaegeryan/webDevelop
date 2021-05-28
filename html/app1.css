@@ -3,7 +3,7 @@
 
 } */
 body {
-    background-color: #2a9d8f;
+    background-color: #ffe5d9;
 }
 button  {
     font-size: 30px;
@@ -14,6 +14,13 @@ h1,h2 {
 }
 
 /* id selector */
-#button2 {
+#signup {
     background-color: #f4a261;
+}
+
+span {
+    color:#cb997e;
+}
+.tag {
+    background-color:#d8e2dc;
 }

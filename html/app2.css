@@ -31,66 +31,17 @@ span {
 }
 
 .post a {
-    color: #457b9d;
-    font-weight: 700;
-    text-decoration: none;
+    color: #a8dadc;
 }
-
+/* 这里的ad的父级是li < ul < nav < footer */
 footer a {
-    color: #e63946;
+    color:#e63946;
+    ;
 }
-
 h2 + button {
     font-size: 20px;
 }
-
+/* a是footer的子级，所以a再 */
 footer > a {
     color: #457b9d;
-}
-
-input[type="password"] {
-    color: greenyellow;
-}
-
-a[href*="google"]{
-    color: #1d3557;
-}
-
-
-.post a:hover {
-    text-decoration: underline;
-}
-
-
-.post button:active {
-    background-color: #02c39a;
-}
-
-.post:nth-of-type(2n){
-    background-color: #dfe8dc;
-}
-
-h2::first-letter {
-    font-size: 50px;
-}
-
-p::first-line {
-    color: purple;
-}
-
-p::selection {
-    background-color: #fcbf49;
-}
-
-.post button:hover {
-    background-color: #e63946;
-    color: #f1faee;
-}
-
-button:hover {
-    background-color: olive;
-}
-
-button {
-    background-color: magenta !important;
 }
