@@ -45,3 +45,12 @@ h2 + button {
 footer > a {
     color: #457b9d;
 }
+input[type="password"]{
+    color: greenyellow;
+}
+
+/* section.post = section[class="post"] */
+
+a[href="www.google.com"]{  /*等于  a[href*="google"] 这个看的是链接中的字母 www.'***'.com*/
+    color: magenta;
+}
