@@ -64,6 +64,6 @@ a[href="www.google.com"]{  /*等于  a[href*="google"] 这个看的是链接中�
     background-color: #02c39a;
 }
 
-.post:nth-of-type(3){
+.post:nth-of-type(3n){
     background-color: #dfe8dc;
 }
