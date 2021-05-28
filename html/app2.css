@@ -54,3 +54,16 @@ input[type="password"]{
 a[href="www.google.com"]{  /*等于  a[href*="google"] 这个看的是链接中的字母 www.'***'.com*/
     color: magenta;
 }
+
+.post button:hover {
+    background-color:#e63946;
+    color: #f1faee;
+}
+
+.post button:active{
+    background-color: #02c39a;
+}
+
+.post:nth-of-type(3){
+    background-color: #dfe8dc;
+}
